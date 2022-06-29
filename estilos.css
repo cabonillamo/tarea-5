@@ -1,0 +1,90 @@
+
+body{
+    background-image: url(images/back.png);
+}
+
+.toda{
+    background-image: url(images/grass.png);
+    float: left;
+}
+
+.principal{
+    background-color: white;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    
+    
+}
+
+main{
+    
+   
+    width: 400px;
+    padding: 5px;
+}
+
+article{
+  width: 50px;
+}
+
+
+  
+ 
+
+
+
+
+aside div.los-recien-llegados ul {
+list-style: none;
+}
+
+aside div.los-recien-llegados {
+    width: 200px;
+    height: 200px;
+    background-color:  #F5FEFF;
+ 
+}
+
+aside div.cuidados-de-su-zaguate{
+    width: 200px;
+    height: 200px;
+    background-color:  #F5FEFF;
+   
+}
+
+aside div.contactenos{
+    width: 200px;
+    height: 200px;
+    background-color:  #F5FEFF;
+}
+
+
+
+
+
+
+nav{
+    width: 880px;
+    height: 35px;
+    background-color: #53C7FD
+}
+
+nav ul{
+    list-style: none;
+    text-align: left;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #E5017D
+}

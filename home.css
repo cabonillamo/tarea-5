@@ -1,0 +1,318 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+      src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+      src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+  } 
+  
+  html { 
+    height: 100%;
+  }
+  
+  * { 
+    padding: 0;
+    margin: 0;
+  }
+  
+  header{
+    width: 847px;
+    background: #FFF;
+    color: #FFF;
+    margin: auto;
+  }
+  
+  #logo{
+    width: 847px;
+    height: 250px;
+    position: relative;
+    background: #FFF url(../images/logo.png) no-repeat;
+  }
+  
+  nav{
+    width: 846px;
+    height: 45px;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border: 10px 10px 0 0;
+    background: #53C7FD;
+    margin: auto;
+  
+  }
+  
+  #main, header, #logo, nav, #site_content, footer { 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+  #main { 
+    margin-top: -140px;
+    width: 863px;
+    padding: 10px 20px 30px 20px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border: 15px 15px 15px 15px;
+    background: #fff;
+    position: relative;
+  }
+  
+  /**
+  Stylesheet for SooperFish by www.SooperThemes.com
+  Author: Jurriaan Roelofs
+  **/
+  
+  /* Configuration of menu width */
+  html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+    width: 200px;
+  }
+  
+  html body ul.sf-menu ul ul { 
+    margin: 0 0 0 200px;
+  }
+  
+  /* Framework for proper showing/hiding/positioning */
+  ul.sf-menu,ul.sf-menu * { 
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.sf-menu { 
+    display: block;
+    position: relative;
+  }
+    
+  ul.sf-menu li { 
+    display: block;
+    list-style: none;
+    float: left;
+    position: relative;
+  }
+    
+  ul.sf-menu li:hover { 
+    visibility: inherit; /* fixes IE7 'sticky bug' */ 
+  }
+  
+  ul.sf-menu a { 
+    display: block;
+    position: relative;
+  }
+    
+  ul.sf-menu ul { 
+    position: absolute;
+    left: 0;
+    width: 150px; 
+    top: auto;
+    left: -999999px;
+  }
+    
+  ul.sf-menu ul a { 
+    zoom: 1; /* IE6/7 fix */ 
+  }
+  
+  ul.sf-menu ul li { 
+    float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+    width: 150px;
+  }
+    
+  ul.sf-menu ul ul { 
+    top: 0;
+    margin: 0 0 0 150px;
+  }
+  
+  ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+  ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+  ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+  ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+    left: auto;
+  }
+    
+  ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+  ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+  ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+  ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+    left: -999999px;
+  }
+  
+  /* Theming the menu */
+  ul#nav { 
+    float: left;
+  }
+  
+  ul#nav ul { 
+    background: #53C7FD;
+    margin-top: 0;
+    padding-bottom: 15px;
+  }
+  
+  ul#nav li a { 
+    padding:9px 25px 10px 15px;
+    font: 170% 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+    color: #FFF;
+    text-shadow: 1px 1px #0BA0E5;
+    text-decoration: none;
+  }
+  
+  ul#nav li a:hover { 
+    color: #E5017D;
+    text-shadow: none;
+  }
+  
+  p { 
+    padding: 0 0 16px 0;
+    line-height: 1.7em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 { 
+    color: #555;
+    padding: 0 0 5px 0;
+  }
+  
+  h1, h2, h4 {  
+    font: normal 200% arial, sans-serif;
+    text-shadow: 1px 1px #FFF;
+    margin: 0 0 15px 0;
+    padding: 15px 20px 5px 0;
+    color: #E5017D;
+  }
+  
+  h2 {  
+     font: larger 200% arial, sans-serif;
+     text-shadow: 1px 1px #FFF;
+  }
+  
+  h4 {  
+    font: normal 170% "Yanone Kaffeesatz", arial, sans-serif;
+    padding: 5px 20px 5px 0;
+    margin: 0;
+    color: #80E804;
+  }
+  
+  h3 {  
+    color: #444;
+    padding: 10px 0 5px 0;
+    font: normal 170% arial;
+  }
+  
+  h5 {  
+    color: #888;
+    font: italic 95% arial;
+    letter-spacing: normal;
+    padding: 0 0 15px 0;
+  }
+  
+  h6 {  
+    padding: 5px 0 25px 0;
+  }
+  
+  img { 
+    border: 0;
+  }
+  
+  ol { 
+    margin: 2px 0 0 24px;
+  }
+  
+  ol li { 
+    margin: 0 0 6px 0;
+  }
+  
+  a, a:hover { 
+    outline: none;
+    color: #20BFD4;
+    text-decoration: underline;
+  }
+  
+  a:hover { 
+    text-decoration: none;
+  }
+  
+  /**MAIN**/
+  
+  #site_content { 
+    width: 847px;
+    background: #FFF;
+    color: #555;
+    overflow: hidden;
+    padding: 0px 0 0px 0;
+    margin: auto;
+  } 
+  
+  /**ASIDE**/
+  #sidebar_container {  
+    float: right;
+    width: 202px;
+  }
+  
+  .sidebar { 
+    margin: 10px 0;
+    width: 178px;
+    padding: 10px;
+    border: 1px solid #C9E5E9;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border: 15px 15px 15px 15px;
+    background: #F5FEFF;
+  }
+  
+  /*ARTICLE*/
+  
+  #contenidoArt { 
+    text-align: left;
+    width: 620px;
+    padding: 10px 0 25px 0px;
+  }
+  
+  article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+  }
+  
+  body { 
+    font: normal .8em arial, sans-serif;
+    background: #C4E9E8 url(../images/back.png) repeat-x;
+    color: #555;
+  }
+  
+  #container { 
+    background: transparent url(../images/grass.png) repeat-x bottom;
+  }
+  
+  /*FOOTER*/
+  
+  footer { 
+    width: 806px;
+    height: 75px;
+    padding: 25px 20px 25px 20px;
+    text-align: center; 
+    background: #53C7FD;
+    border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border: 0 0 10px 10px;
+    color: #fff;
+    font: 150% 'Yanone Kaffeesatz', arial, sans-serif;
+    text-decoration: none;
+    color:#FFF;
+    text-shadow: 1px 1px #0BA0E5;
+    margin: auto;
+  }
+    
+  footer p { 
+    line-height: 1.7em;
+    padding: 0 0 4px 0;
+  }
+    
+  footer a { 
+    color: #FFF;
+  }
+  
+  footer a:hover { 
+    color: #E5017D;
+    text-shadow: none;
+  }
+  
+  #grass {
+    background: #64BF38; 
+    width: 100%;
+    height: 100px;
+    margin-top: -0px;
+    position: relative; 
+    z-index: 1;
+  }
+  
